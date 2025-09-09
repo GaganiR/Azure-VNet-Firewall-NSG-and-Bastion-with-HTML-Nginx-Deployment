@@ -38,7 +38,8 @@ Simply add a name to create a RG.
 * Select inbound port ssh 22 only.
 * Select delete NIC when VM is deleted.
 * Click review+create and download the .pem file.
-<img width="1260" height="537" alt="create vm" src="https://github.com/userattachments/assets/195fedd5-b287-482a-afa5-8662d0a8db22" />
+<img width="1260" height="537" alt="create vm" src="https://github.com/user-attachments/assets/c6ff863f-80ee-4ec7-aeb0-7fb98dca7aa2" />
+
 
 ## Connect to VM through Bastian
 Bastian is offered as a service within azure hence you only have to tick the box to enable bastian when creating a vnet. Compared to AWS where you have to create a seperate subnet and vm as the bastian by yourself.
@@ -49,7 +50,8 @@ Bastian is offered as a service within azure hence you only have to tick the box
 * Select the .pem file.
 * Click connect.
 * Now you are connected to the VM via Bastian.
-<img width="1235" height="582" alt="bastian connect" src="https://github.com/user-attachments/assets/75b8585d-f5ff-4320-baff-3d74b10a1d98" />
+
+<img width="1235" height="582" alt="bastian connect" src="https://github.com/user-attachments/assets/5c50da04-5ffe-4287-a5ad-1f9963ffc92d" />
 
 ## VM Configuration
 We need to run commands as the root user to install nginx on the vm.
@@ -127,7 +129,8 @@ This is done by configuring the DNAT rules.
 * Keep rule collection type as DNAT.
 * Give priority as 100. (Priority ranges from 100-65,000. Lower numbers = higher priority.)
 * Click on add.
-<img width="1382" height="492" alt="dnat rule collection" src="https://github.com/user-attachments/assets/2661d30d-5113-4953-a5a3-b98223f7df54" />
+<img width="1382" height="492" alt="dnat rule collection" src="https://github.com/user-attachments/assets/ce7c9087-8905-420b-8e27-56265cfe2a91" />
+
 
 * Click on add rule.
 * Select the previously created rule collection.
